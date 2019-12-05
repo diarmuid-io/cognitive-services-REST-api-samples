@@ -6,6 +6,7 @@
     <base target="_blank">
     
     <script src="/js/script.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 <link rel="shortcut icon" href="img/wave.png" type="image/x-icon" />
@@ -45,9 +46,12 @@
 <div id="query"><!-- query controls including search field and options -->
     <header class="showcase">
         <h1>Ripples Search</h1>
-
-        <input class="form-control" type="text" name="query" id="term" placeholder="Search" autocomplete=off>
-
+        <div class="searchbar">
+        <input class="form-control" class="searchbar-txt" type="text" name="query" id="term" placeholder="Search" autocomplete=off>
+        <a class="searchbar-btn">
+            <i class="fad fa-water"></i>
+       </a>
+    </div>
         <p>
             <button type="button" class="btn btn-primary">Search</button>
   <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
